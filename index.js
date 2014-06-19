@@ -5,8 +5,7 @@ module.exports = function(templ) {
   var template = handlebars.compile(templ);
 
   var transform = function(chunk, enc, callback) {
-    this.push(template(chunk));
-    callback();
+    callback(null, template(chunk));
   };
 
   return through({objectMode: true}, transform);
