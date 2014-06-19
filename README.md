@@ -1,6 +1,8 @@
 handlebars-stream
 =================
 
+[![build status](https://secure.travis-ci.org/sorribas/handlebars-stream.png)](http://travis-ci.org/sorribas/handlebars-stream)
+
 Through stream that renders objects with handlebars templates.
 
 Install
