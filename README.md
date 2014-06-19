@@ -3,6 +3,13 @@ handlebars-stream
 
 Through stream that renders objects with handlebars templates.
 
+Install
+-------
+
+```
+npm install handlebars-stream
+```
+
 Examples
 --------
 
