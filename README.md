@@ -38,6 +38,19 @@ db.customers.find()
   .pipe(httpResponse);
 ```
 
+and specify an opening/closing tag as well
+
+```js
+var handlebars = require('handlebars-stream');
+
+db.customers.find()
+  .pipe(handlebars('<tr><td>{{name}}</td><td>{{id}}</td></tr>', {
+    open: '<table>',
+    close: '</table>'
+  }))
+  .pipe(httpResponse);
+```
+
 Browser usage
 -------------
 
