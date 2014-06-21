@@ -8,5 +8,5 @@ module.exports = function(templ) {
     callback(null, template(chunk));
   };
 
-  return through({objectMode: true}, transform);
+  return through.obj(transform);
 };
