@@ -20,4 +20,14 @@ test('open/close', function(t) {
   }));
 
   strm.end({data: 'world'});
-})
+});
+
+test('open/close with empty stream', function(t) {
+  var strm = handlebars('hello {{data}}', {open:'<div>', close:'</div>'});
+  strm.pipe(concat(function(result) {
+    t.equal(result, '<div></div>');
+    t.end();
+  }));
+
+  strm.end();
+});
