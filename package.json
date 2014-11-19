@@ -1,6 +1,6 @@
 {
   "name": "handlebars-stream",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Through stream that renders objects with handlebars templates.",
   "main": "index.js",
   "directories": {
