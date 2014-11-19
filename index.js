@@ -18,6 +18,7 @@ module.exports = function(templ, opts) {
   };
 
   var flush = function(callback) {
+    if (open) this.push(open);
     if (close) this.push(close);
     callback();
   };
