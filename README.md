@@ -3,6 +3,8 @@ handlebars-stream
 
 [![build status](https://secure.travis-ci.org/sorribas/handlebars-stream.png)](http://travis-ci.org/sorribas/handlebars-stream)
 
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/handlebars-stream.svg)](https://saucelabs.com/u/handlebars-stream)
+
 Through stream that renders objects with handlebars templates.
 
 Install
