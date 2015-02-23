@@ -15,7 +15,8 @@
     "concat-stream": "^1.4.6"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/index.js",
+    "sauce": "node test/sauce.js"
   },
   "repository": {
     "type": "git",
