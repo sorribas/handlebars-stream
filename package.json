@@ -11,8 +11,9 @@
     "through2": "^0.5.1"
   },
   "devDependencies": {
-    "tape": "^2.13.3",
-    "concat-stream": "^1.4.6"
+    "brtapsauce": "^0.4.0",
+    "concat-stream": "^1.4.6",
+    "tape": "^2.13.3"
   },
   "scripts": {
     "test": "tape test/index.js",
