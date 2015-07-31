@@ -25,3 +25,5 @@ module.exports = function(templ, opts) {
 
   return through.obj(transform, flush);
 };
+
+module.exports.handlebars = handlebars
